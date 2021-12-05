@@ -67,7 +67,8 @@ public class UI {
 	}
 
 	public static void printBoard(ChessPiece[][] pieces) {
-		System.out.println("K == King; Q == Queen; B == Bishop; N == Knight; R == Rook; P == Pawn");
+		System.out.println("K == King; Q == Queen; B == Bishop; N == Knight; R == Rook; P == Pawn;");
+		System.out.println();
 		for (int i = 0; i < pieces.length; i++) {
 			System.out.print((8 - i) + " ");
 			for (int j = 0; j < pieces.length; j++) {
